@@ -1,0 +1,86 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    background-color: beige;
+}
+
+.nav {
+    background-color: rgb(43, 175, 142);
+    padding: 10px;
+    height: 60px;
+}
+
+.nav img {
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.nav .nav__img {
+    width: 20%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.nav .nav__titulo {
+    width: 20%;
+    left: 40%;
+    line-height: 55px;
+    text-align: center;
+    position: absolute;
+}
+
+.nav .nav_menu {
+    right: 10px;
+    position: absolute;
+    text-align: right;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* .nav h1{
+    font-weight: normal;
+    text-align: center;
+    
+} */
+
+.Somos {
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 22px;
+}
+
+#contenedorImagenes {
+    background-color: rgb(43, 175, 142);
+    text-align: center;
+}
+
+#contenedorImagenes #imagenes {
+    margin: 10%;
+    padding: 10px;
+}
+
+.visitanos {
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
