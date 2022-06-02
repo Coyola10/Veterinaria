@@ -10,56 +10,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-<div>
-    <div class="grid">
-        <div class="item-header">
-            <div class="grid-container1">
-                <div class="grid-img">
-                    <img src="https://i.pinimg.com/originals/9a/29/b8/9a29b845ef253e3dfc7bfd296ce0a4ee.jpg" alt=""
-                        class="titulo__logo">
-                </div>
-                <div class="grid-titulo">
-                    <h1> Veterinaria Oyola </h1>
-                </div>
-                <div>
-                    <nav class="grid-menu">
-                        <ul class="menu">
-                            <li><a href="./index.html">Servicios</a></li>
-                            <li><a href="./Servicios.html">Productos</a></li>
-                            <li><a href="./Adopciones.html">Adopciones</a></li>
-                            <li><a href="./Contacto.html">Contacto</a></li>
-                        </ul>
-                    </nav>
+
+
+    <div>
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="grid-img"
+                        src="https://i.pinimg.com/originals/9a/29/b8/9a29b845ef253e3dfc7bfd296ce0a4ee.jpg" alt=""
+                        class="titulo__logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Servicios.html">Servicios</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
                 </div>
             </div>
-        </div>
+        </nav>
 
-    <h1>Adopciones</h1>
+        <h1>Adopciones</h1>
 
-    <br>
-    <a href="#Pie">Ir al pie de pagina</a>
+        <br>
+        <a href="#Pie">Ir al pie de pagina</a>
 
-    <br>
+        <br>
 
-    <footer id="Pie" style="margin-top: 100px;">
-        <div class="grid-container">
-            <div class="grid-item1"><img
-                    src="https://i.pinimg.com/originals/9a/29/b8/9a29b845ef253e3dfc7bfd296ce0a4ee.jpg" alt=""
-                    class="imagen"></div>
-            <div class="grid-item2">
-                <p>Veterinaria Oyola</p>
-                <br>
-                <p>Nuestro teléfono es: 3548585653</p>
+        <footer id="Pie" style="margin-top: 100px;">
+            <div class="grid-container">
+                <div class="grid-item1"><img
+                        src="https://i.pinimg.com/originals/9a/29/b8/9a29b845ef253e3dfc7bfd296ce0a4ee.jpg" alt=""
+                        class="imagen"></div>
+                <div class="grid-item2">
+                    <p>Veterinaria Oyola</p>
+                    <br>
+                    <p>Nuestro teléfono es: 3548585653</p>
+                </div>
+                <div class="grid-item3">
+                    <p>Siguenos en nuestras redes</p>
+                </div>
             </div>
-            <div class="grid-item3">
-                <p>Siguenos en nuestras redes</p>
-            </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 </body>
 
 </html>

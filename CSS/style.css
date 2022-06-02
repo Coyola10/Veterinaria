@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.grid-container1 .grid-img {
+.grid-img {
     border-radius: 5px;
     float: left;
     width: 50px;
@@ -26,7 +26,7 @@ body {
 .grid-container1 .grid-titulo {
     border-radius: 5px;
     float: left;
-   
+
 }
 
 .grid-container1 .grid-menu {
@@ -45,24 +45,34 @@ ul li a {
 }
 
 .Somos {
+    padding-bottom: 20px;
+}
+
+.Somoss {
     font-style: normal;
     font-size: 40px;
     text-align: center;
+    padding: 20px;
+}
+
+.Nuestro {
+    padding: 30px;
 }
 
 p {
     text-align: center;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
     font-size: 22px;
 }
 
-.row {
+.row1 {
     text-align: center;
     background-color: rgb(43, 175, 142);
     margin-top: 100px;
+
 }
 
-.row .column {
+.row1 .column {
     background-color: rgb(43, 175, 142);
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
@@ -91,17 +101,44 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(43, 175, 142);
+    background-color: #198754;
     padding: 10px;
     gap: 10px;
     align-items: center;
-    
+
 }
 
 .grid-container .grid-item1 .imagen {
     border-radius: 5px;
     float: left;
     width: 100px;
+}
+
+.image-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.image-thumb2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.image-thumb2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-thumb img {
+    width: 100%
 }
 
 .grid-imagen {
@@ -115,13 +152,13 @@ p {
 }
 
 .item-header {
-    background-color:rgb(43, 175, 142) ;
+    background-color: rgb(43, 175, 142);
     grid-area: header;
-  }
+}
 
 .menu li a:hover {
-     color: beige;
-     transition: 500ms all;
+    color: beige;
+    transition: 500ms all;
 }
 
 .menu li a {
@@ -141,7 +178,7 @@ p {
     font-size: 25px;
 }
 
-.container {
+.container1 {
     background-color: bisque;
     margin: 0 auto;
     width: 800px;
@@ -171,10 +208,12 @@ p {
     line-height: 1.5;
     background-color: #fcdcdb;
     text-align: center;
+    
 }
 
 .modeloDescripcion {
     text-align: left;
+
 }
 
 .modelo1 img {
@@ -210,7 +249,7 @@ p {
 .grid-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(43, 175, 142);
+    background-color: #198754;
     padding: 10px;
     gap: 10px;
     align-items: center;
@@ -248,7 +287,7 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(43, 175, 142);
+    background-color: #198754;
     padding: 10px;
     gap: 10px;
     align-items: center;
