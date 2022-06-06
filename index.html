@@ -11,13 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="grid-img"
@@ -40,7 +42,7 @@
                         <a class="nav-link" href="./Productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Adopciones.html">Adopciones</a>
+                        <a class="nav-link" href="./Somos.html">Quienes Somos?</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -50,76 +52,159 @@
             </div>
         </div>
     </nav>
-
-    <div class="grid-imagen">
-        <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/860/952/themes/amazonas/1-slide-1651842982224-5265801758-7490cf2eb018f32fe0a2c90d340ac49d1651842982-1920-1920.webp?1453432258"
-            alt="Veterinaria Oyola">
-    </div>
-
-    <hr>
-    <div class="Somos">
-        <h3 class="Somoss">¿Quienes somos?</h3>
-
-        <p class="pe">Veterinaria Oyola es una empresa creada por la Familia Oyola con mas de 100 años de experiencia.
-            Nos
-            enfocamos en
-            atender las necesidades de las mascotas e impartimos nuestra experiencia para ofrecer día a día una mejor
-            calidad de productos y servicios.
-            Apuntamos primordialmente al énfasis por la atención a nuestros clientes, quienes cuidan de sus mascotas,
-            así
-            como por ofrecer productos de excelente calidad. Mantenemos una extrecha relación empresarial con las más
-            importantes compañías de alimentos, criaderos, medicamentos, químicos y accesorios en toda Argentina.
-            Los locales poseen un excelente resultado basado en la notable satisfacción de sus clientes lo que
-            igualmente
-            nos da excelentes referencias en el mercado y entre nuestros clientes.
-            Nuestra empresa busca constantemente nuevas metas, ampliando y expandiendo su campo de acción, nuestra
-            principal
-            filosofía sigue siendo ofrecer una mejor y mayor prestación de servicios queremos ser cada vez mas
-            competitivos
-            y mantener nuestro alto nivel de calidad.</p>
-
-        <p class="pe">Ofrecemos CALIDAD y SEGURIDAD en todos sus servicios y productos. Dedicada especialmente al rubro
-            veterinario
-            y
-            petshop trabajamos constantemente para brindar un servicio eficiente e innovador. Paralelo al cuidado de las
-            mascotas brindamos una gran variedad de productos que mejoran la vida de los animales de hogar.</p>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/860/952/themes/amazonas/1-slide-1651842982224-5265801758-7490cf2eb018f32fe0a2c90d340ac49d1651842982-1920-1920.webp?1453432258"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/860/952/themes/amazonas/1-slide-1647974570439-368503978-863e9598c1263b2995fafe9169d754401647974580-1920-1920.webp?1868622929"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 
+    <br>
+    <br>
+    <br>
 
     <hr>
-
-    <div class="container-fluid" style="padding: 5px;background-color: #198754">
+    <div class="container2">
         <div class="row">
-            <div class="col-9" style="text-align: center;">
-                <h2><u>Nuestro Equipo</u></h2>
+            <div class="col-12 text-center">
+                <h3><B>OFERTAS</B></h3>
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <div class="image-thumb"><img
-                        src="https://www.edx.org/static/18afddae77f96175cd5aa3ecc456672c/Aprende_Veterinaria_y_etologi__a.jpg"
-                        alt="Control veterinario" /></div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://www.distriballester.com/wp-content/uploads/2020/10/ROYAL-URINARY-GATO-7.5-KG.jpg">
+                    </div>
+                    <div>
+                        <P class="name">ROYAL CANIN CAT URINARY 1.5KG</P>
+                        <p class="name">$3.500</p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <div class="image-thumb"><img
-                        src="https://www.clinicaveterinariaejea.com/wp-content/uploads/2020/03/Equipo-Clinica-Veterinaria-Ejea-1-480x300.jpeg"
-                        alt="Control veterinario" /></div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://www.balanceadosmendoza.com/wp-content/uploads/2017/07/gati-pescado-arroz-espinaca-alimento-para-gato-mendoza-balanceados-mendoza.jpg">
+                    </div>
+                    <div>
+                        <P class="name">GATI ADULTO SABOR PESCADO 3KG</P>
+                        <p class="name">$3.000</p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <div class="image-thumb"><img
-                        src="https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg"
-                        alt="Control veterinario" />
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/884/444/products/pedigree-adulto-small1-5e7a817519c873d57f16395926878454-1024-1024.jpg">
+                    </div>
+                    <div>
+                        <P class="name">PEDIGREE ADULTO RAZA PEQUEÑA 3KG</P>
+                        <p class="name">$5.148</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://http2.mlstatic.com/D_NQ_NP_907153-MLA43461503648_092020-O.webp">
+                    </div>
+                    <div>
+                        <P class="name">SIEGER PERRO LIGHT 3KG</P>
+                        <p class="name">$2.230</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <br>
+
+
+
+    <div class="container2">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3><B>DESTACADOS DE LA SEMANA</B></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="data:image/jpeg;base64,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">
+                    </div>
+                    <div>
+                        <P class="name">EXCELLENT ADULT GATO ADULTO 15 KG</P>
+                        <p class="name">$12.700</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://http2.mlstatic.com/D_NQ_NP_687139-MLA43471112709_092020-V.jpg">
+                    </div>
+                    <div>
+                        <P class="name">WHISKAS SACHET SALMON</P>
+                        <p class="name">$100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://cdn.royalcanin-weshare-online.io/UlYfCH8BBKJuub5qBtaJ/v27/rc-spt-dry-giantpuppy-mv-2-es-es?w=420&fm=jpg&auto=compress">
+                    </div>
+                    <div>
+                        <P class="name">ROYAL CANIN GIANT PUPPY 15 KG</P>
+                        <p class="name">$13.500</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product_container">
+                    <div class="image-thumb3">
+                        <img class="rounded float-start"
+                            src="https://m.media-amazon.com/images/I/51Ss8OaxkfL._AC_SS450_.jpg">
+                    </div>
+                    <div>
+                        <P class="name">PRO PLAN DOG PUPPY X 3 KG</P>
+                        <p class="name">$3.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <hr>
 
     <div class="mapa">
         <h3 class="visitanos">¡Visitanos!</h3>
+        <br>
         <p>Estamos en Pasaje San Agustin 366, barrio Alberdi, Cordoba, Argentina</p>
         <br>
         <iframe
@@ -127,8 +212,6 @@
             width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <br>
-    <br>
 
     <footer id="Pie" style="margin-top: 100px;">
         <div class="grid-container">
@@ -139,16 +222,14 @@
                 <p>Veterinaria Oyola</p>
                 <br>
                 <p>Nuestro teléfono es: 3548585653</p>
+                <br>
+                <p>VeterinariaOyola@gmail.com</p>
             </div>
             <div class="grid-item3">
                 <p>Siguenos en nuestras redes</p>
             </div>
-        </div>
     </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

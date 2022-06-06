@@ -45,7 +45,7 @@ ul li a {
 }
 
 .Somos {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .Somoss {
@@ -208,7 +208,6 @@ p {
     line-height: 1.5;
     background-color: #fcdcdb;
     text-align: center;
-    
 }
 
 .modeloDescripcion {
@@ -302,4 +301,51 @@ p {
 
 .grid-item {
     display: grid;
+}
+
+.mapa {
+    padding: 70px;
+}
+
+.image-thumb3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.image-thumb3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container2 {
+    padding: 50px;
+}
+
+.container2 .row {
+    padding: 20px;
+}
+
+.name {
+    text-align: center;
+    font-size: 15px;
+}
+
+.product_container:hover {
+    border: 1px solid gray;
+    transition: 300ms all;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+.product_container {
+    transition: 300ms all;
+    align-items: center;
+    text-align: center;
+    max-height: 300px;
+    padding: 5px;
 }
