@@ -336,7 +336,7 @@ p {
 }
 
 .product_container:hover {
-    border: 1px solid gray;
+    border: 1px solid hwb(0 50% 50%);
     transition: 300ms all;
     border-radius: 5%;
     padding: 0px;
