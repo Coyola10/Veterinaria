@@ -38,18 +38,28 @@
     }
 }
 
-.btn {
+.boton {
     display: inline;
-    width: 1px;
+    width: 100%;
     padding: 10px 10px;
     border-radius: 1px solid black;
     border-radius: 10px;
     text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
 }
 
 a.btn-verde {
-    @extend .btn;
+    @extend .boton;
     background-color: #fbbdbc;
+    color: white;
+    transition: 100ms;
+}
+
+a.btn-verde:hover {
+    color: gray;
+    background-color: #fcd0cf;
+    transition: 100ms;
 }
 
 $colores: (
@@ -68,9 +78,9 @@ $valor in $colores {
 .productos {
     max-height: 450px;
     width: 290px;
-    margin: 3%;
     transition: 250ms;
     border-radius: 2px;
+    margin-top: 10px;
 
     .image-thumb {
         display: flex;
@@ -87,6 +97,56 @@ $valor in $colores {
     }
     
 }
+
+.formulario {
+    width: 40%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #FFFFE0;
+    border-radius: 5px;
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+}
+
+@media only screen and (max-width:768px){
+    .formulario {
+        width: 70%;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        background-color: #FFFFE0;
+        border-radius: 5px;
+    
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+    
+        }
+    }
+}
+
+.vete {
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo-base {
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.pepe {
+    width:95%;
+    margin:0px auto;
+    padding:15px
+}
+
 
 
 

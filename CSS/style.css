@@ -131,6 +131,7 @@ p {
 }
 
 
+
 .grid-imagen {
     display: flex;
     overflow-x: hidden;
@@ -371,10 +372,7 @@ footer {
     padding: 5px;
 }
 
-.vete {
-    padding: 30px;
-    text-align: center;
-}
+
 
 .footer_ {
     margin-top: 50px;
