@@ -219,3 +219,13 @@ a.menu:hover {
          font-size: 17px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .titulo {
+         font-size: 20px;
+    }
+}
+
+.titulo {
+    color: white;
+}
