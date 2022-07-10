@@ -160,4 +160,89 @@ a.btn-verde:hover {
   margin: 0px auto;
   padding: 15px;
 }
+
+.Somoss {
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-item {
+  display: -ms-grid;
+  display: grid;
+}
+
+.mapa {
+  padding: 70px;
+}
+
+.image-thumb3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  padding-top: 5px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.product_container:hover {
+  border: 1px solid hwb(0 50% 50%);
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  border-radius: 5%;
+  padding: 0px;
+}
+
+.product_container {
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-height: 300px;
+  padding: 5px;
+}
+
+.visitanos {
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+a.menu {
+  -webkit-transition: 120ms;
+  transition: 120ms;
+}
+
+a.menu:hover {
+  background-color: #fbbdbc;
+  -webkit-transition: 120ms;
+  transition: 120ms;
+}
+
+.grid-imagen1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.grid-imagen1 img {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .texto {
+    font-size: 17px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

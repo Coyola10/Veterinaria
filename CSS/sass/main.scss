@@ -95,7 +95,7 @@ $valor in $colores {
         max-width: 100%;
         max-height: 100%;
     }
-    
+
 }
 
 .formulario {
@@ -113,7 +113,7 @@ $valor in $colores {
     }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     .formulario {
         width: 70%;
         margin: auto;
@@ -121,11 +121,11 @@ $valor in $colores {
         box-sizing: border-box;
         background-color: #FFFFE0;
         border-radius: 5px;
-    
+
         input {
             width: 100%;
             margin-bottom: 10px;
-    
+
         }
     }
 }
@@ -142,13 +142,80 @@ $valor in $colores {
 }
 
 .pepe {
-    width:95%;
-    margin:0px auto;
-    padding:15px
+    width: 95%;
+    margin: 0px auto;
+    padding: 15px
+}
+
+.Somoss {
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
 }
 
 
+.grid-item {
+    display: grid;
+}
 
+.mapa {
+    padding: 70px;
+}
 
+.image-thumb3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
 
+.product_container:hover {
+    border: 1px solid hwb(0 50% 50%);
+    transition: 300ms all;
+    border-radius: 5%;
+    padding: 0px;
+}
 
+.product_container {
+    transition: 300ms all;
+    align-items: center;
+    text-align: center;
+    max-height: 300px;
+    padding: 5px;
+}
+
+.visitanos {
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+a.menu {
+    transition: 120ms;
+}
+
+a.menu:hover {
+    background-color: #fbbdbc;
+    transition: 120ms;
+
+}
+
+.grid-imagen1 {
+    display: flex;
+    overflow-x: hidden;
+
+    img {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .texto {
+         font-size: 17px;
+    }
+}

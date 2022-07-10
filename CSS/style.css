@@ -14,15 +14,6 @@ body {
     color: white;
 }
 
-.grid-container1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: 5dbd6f(43, 175, 142);
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
-}
-
 .grid-img {
     border-radius: 5px;
     float: left;
@@ -31,89 +22,14 @@ body {
     display: flex;
 }
 
-.grid-container1 .grid-titulo {
-    border-radius: 5px;
-    float: left;
-
-}
-
-.grid-container1 .grid-menu {
-    border-radius: 5px;
-    float: left;
-}
-
 .row_ {
     padding: 30px;
 }
 
-.Somos {
-    padding-bottom: 60px;
-}
-
-.Somoss {
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    padding: 20px;
-}
-
-.Nuestro {
-    padding: 30px;
-}
 
 p {
     text-align: center;
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
     font-size: 22px;
-}
-
-.row1 {
-    text-align: center;
-    background-color: #abd7fa;
-    margin-top: 100px;
-
-}
-
-.row1 .column {
-    background-color: #abd7fa;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: flex;
-    padding: 10px;
-    justify-content: left;
-    overflow-x: scroll;
-}
-
-.column {
-    flex: 25%;
-}
-
-.Somos1 {
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    background-color: #abd7fa;
-}
-
-.visitanos {
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #abd7fa;
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
-
-}
-
-.grid-container .grid-item1 .imagen {
-    border-radius: 5px;
-    float: left;
-    width: 100px;
 }
 
 .image-thumb2 {
@@ -130,8 +46,6 @@ p {
     max-height: 100%;
 }
 
-
-
 .grid-imagen {
     display: flex;
     overflow-x: hidden;
@@ -140,42 +54,6 @@ p {
 .grid-imagen img {
     width: 100%;
 
-}
-
-.item-header {
-    background-color: #abd7fa;
-    grid-area: header;
-}
-
-.menu li a:hover {
-    color: beige;
-    transition: 500ms all;
-}
-
-.menu li a {
-    transition: 500ms all;
-}
-
-.colorServicios {
-    color: black;
-    font-size: 42px;
-    font-weight: normal;
-    text-align: center;
-}
-
-.container1 {
-    background-color: bisque;
-    margin: 0 auto;
-    width: 800px;
-    padding: 100px;
-}
-
-.colum {
-    padding-top: 20px;
-    column-count: 2;
-    text-align: center;
-    column-gap: 50px;
-    font-size: 20px;
 }
 
 .cont {
@@ -185,88 +63,12 @@ p {
     font-family: sans-serif;
 }
 
-.modelo1 {
-    width: 90%;
-    height: 200px;
-    padding: 20px;
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: #fcdcdb;
-    text-align: center;
-}
-
-.modeloDescripcion {
-    text-align: left;
-
-}
-
-.modelo1 img {
-    border-radius: 5px;
-    float: left;
-    width: 310px;
-    text-align: center;
-    margin-right: 10px;
-}
-
-.modelo2 {
-    width: 90%;
-    height: 200px;
-    padding: 20px;
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: #fbbdbc;
-    text-align: center;
-}
-
-.modelo2 img {
-    border-radius: 5px;
-    float: left;
-    width: 310px;
-    margin-right: 10px;
-}
-
 .item-header {
     background-color: #abd7fa;
     grid-area: header;
 }
 
-.grid-container1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #abd7fa;
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
-}
 
-.grid-container1 .grid-img {
-    border-radius: 5px;
-    float: left;
-    width: 50px;
-    height: 50px;
-    display: flex;
-
-}
-
-.grid-container1 .grid-titulo {
-    border-radius: 5px;
-    float: left;
-
-}
-
-.grid-container1 .grid-menu {
-    border-radius: 5px;
-    float: left;
-}
-
-.grid-imagen {
-    display: flex;
-    overflow-x: hidden;
-}
-
-.grid-imagen img {
-    width: 100%;
-}
 
 footer {
     width: 100%;
@@ -321,24 +123,6 @@ footer {
     font-size: 20px;
 }
 
-.grid-item {
-    display: grid;
-}
-
-.mapa {
-    padding: 70px;
-}
-
-.image-thumb3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    padding-top: 5px;
-    overflow: hidden;
-    margin-bottom: 5px;
-}
-
 .img-fluid img {
     max-width: 100%;
     max-height: auto;
@@ -352,32 +136,7 @@ footer {
     padding: 20px;
 }
 
-.name {
-    text-align: center;
-    font-size: 15px;
-}
-
-.product_container:hover {
-    border: 1px solid hwb(0 50% 50%);
-    transition: 300ms all;
-    border-radius: 5%;
-    padding: 0px;
-}
-
-.product_container {
-    transition: 300ms all;
-    align-items: center;
-    text-align: center;
-    max-height: 300px;
-    padding: 5px;
-}
-
-
-
 .footer_ {
     margin-top: 50px;
 }
 
-.colo {
-    color: white;
-}
